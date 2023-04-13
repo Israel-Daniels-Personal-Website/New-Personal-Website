@@ -1,0 +1,163 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: rgb(233, 243, 255);
+    width: 100%;
+    margin: 0%;
+  }
+
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+#content {
+    margin: 5px;
+}
+
+  .Who {
+    border: 1px solid black;
+    padding: 5%;
+    margin-bottom: 10%;
+  }
+
+  .Mission {
+    border: 1px solid black;
+    padding: 5%;
+    margin-bottom: 10%;
+  }
+
+  .Quote {
+    border: 1px solid black;
+    padding: 5%;
+  }
+
+  .face {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .Welcome {
+    display: flex;
+    margin: 5%;
+  }
+
+  #AboutContent {
+    margin: 5%;
+  }
+
+  .Bio {
+    border: 1px solid black;
+    padding: 5%;
+    margin-bottom: 10%;
+  }
+
+  .SkillList {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header h2 {
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #001aff, #9394d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  .SHTML {
+    display: block;
+    margin: 5%;
+    padding: 5%;
+    border: 1px solid black;
+  }
+
+  .SCSS {
+    display: block;
+    margin: 5%;
+    padding: 5%;
+    border: 1px solid black;
+  }
+
+  .SJS {
+    display: block;
+    margin: 5%;
+    padding: 5%;
+    border: 1px solid black;
+  }
+
+  .SLooks {
+    display: block;
+    margin: 5%;
+    padding: 5%;
+    border: 1px solid black;
+  }
