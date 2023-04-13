@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Israel Daniels Webpage</title>
+</style>
+</head>
+<body>
+
+    
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="Home.html">Home</a>
+  <a href="AboutMe.html">About Me</a>
+  <a href="Portfolio.html">Portfolio</a>
+  <a href="ContactMe.html">Contact Me</a>
+</div>
+
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Explore</button>  
+</div>
+
+<div class="Welcome">
+<header>
+  <h2>About Me</h2>
+</header>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<img class="face" height="50%" src="izzypose.jpg" alt="">
+
+<div id="AboutContent">
+    <div class="Bio">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec enim non massa consequat viverra sit amet non enim. Integer semper turpis at malesuada posuere. Nullam id lectus euismod, congue velit vitae, rhoncus ante. Proin fringilla tincidunt metus ac luctus. Sed auctor, ex sit amet maximus consectetur, augue enim commodo diam, nec efficitur magna enim eu turpis.
+        Aenean eleifend dolor id mi congue, id suscipit arcu maximus. Nullam ullamcorper, justo at dapibus venenatis, tellus nulla feugiat odio, sit amet sagittis enim ex eget tortor. Mauris luctus, massa vel feugiat mattis, est dolor tristique lacus, sed molestie tortor neque eu ipsum.</p>
+    </div>
+</div>
+
+<div id="AboutSkills">
+  <ul class="SkillList">
+    <h3>Skills</h3>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>Good Looks</li>
+  </ul>
+</div>
+
+<div class="SHTML">
+  <h3>HTML</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod libero at nibh commodo, eget consectetur nisi consectetur. Maecenas euismod, nulla vel bibendum sagittis, velit velit tristique magna, eu faucibus lacus quam vel lorem.</p>
+</div>
+
+<div class="SCSS">
+  <h3>CSS</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod libero at nibh commodo, eget consectetur nisi consectetur. Maecenas euismod, nulla vel bibendum sagittis, velit velit tristique magna, eu faucibus lacus quam vel lorem.</p>
+</div>
+
+<div class="SJS">
+  <h3>Javascript</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod libero at nibh commodo, eget consectetur nisi consectetur. Maecenas euismod, nulla vel bibendum sagittis, velit velit tristique magna, eu faucibus lacus quam vel lorem.</p>
+</div>
+
+<div class="SLooks">
+  <h3>Good Looks</h3>
+  <p>...I dont know honestly. Just felt like I needed annother point. But also like, come on, <a href="AboutMe.html">have you seen me?</a></p>
+</div>
+
+</body>
+</html> 
