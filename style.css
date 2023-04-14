@@ -166,7 +166,3 @@ body {
     display: grid;
     justify-content: center;
   }
-
-  @media screen and (min-width: 390px) and (max-width: 844px) {
-    
-  }
